@@ -1,0 +1,83 @@
+body 
+{
+	background-color: darkred;
+
+}
+.container
+{
+	width: 80%;
+	height: 100vh;
+	font-family: monospace;
+	background-color: orangered;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	margin: 350px;
+	margin-left: 250px;
+	margin-right: 250px;
+
+}
+.card
+{
+	width: 500px;
+	height: 500px;
+	box-shadow: 0 0 40px 20px rgba(0,0,0,0.26);
+	background-size: contain;
+	
+	background-image:linear-gradient(rgba(139,0,0,0.3),rgba(139,0,0,0.3)),url(IMAGES/login1.jpeg);
+position: absolute;
+background-position: 50% 0;
+
+}
+
+.input-box
+{
+	
+	width: 35%;
+	background-color: antiquewhite;
+	border: 1px solid grey;
+	margin-left: 25px ;
+	margin-bottom: 5px;
+	height: 30px;
+	border-radius: 20px;
+	border-width: 3px;
+	box-sizing: border-box;
+	text-align: center;
+	padding: 5px;
+	outline: none;
+}
+::placeholder
+{
+	color: slategray;
+	font-size: 15px;
+	font-style: italic;
+	font-weight:600 ;
+	font-family: monospace;
+	
+}
+h2
+{
+	font-size: 40px;
+	color: antiquewhite;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.btn
+{
+	height: 35px;
+	width: 90%;
+	border-radius: 20px;
+	border-width: 3px;
+	background-color: darkred;
+	border-color: darkred;
+	font-size: 20px;
+	font-weight: 900;
+	color: white;
+	cursor: pointer;
+	transition: .3s;
+	margin-left: 25px;
+}
+
+
+

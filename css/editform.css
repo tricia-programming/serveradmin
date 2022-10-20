@@ -1,0 +1,87 @@
+body 
+{
+	background-color: rgb(192,192,192);
+
+}
+
+.card
+{
+	width: 600px;
+	height: 600px;
+	box-shadow: 0 0 40px 20px rgba(0,0,0,0.26);
+	background-size: cover;
+	margin-left: 180px;	
+	margin-top: 50px;
+	background-image:linear-gradient(rgba(198,199,196,0.5),rgba(238,240,242,0.5));
+    position: absolute;
+    background-position: 50% 0;
+
+
+}
+
+.input-box
+{
+	
+	width: 35%;
+	background-color: antiquewhite;
+	border: 1px solid grey;
+	margin-left: 25px ;
+	margin-bottom: 10px;
+	height: 35px;
+	border-radius: 20px;
+	border-width: 3px;
+	box-sizing: border-box;
+	text-align: center;
+	padding: 5px;
+	outline: none;
+}
+
+header
+{
+	font-size: 40px;
+	color: antiquewhite;
+	margin-bottom: 10px;
+	text-align: center;
+}
+span 
+{
+	font-size: 15px;
+	margin-left: 8px;
+	color: antiquewhite;
+	font-weight: bolder;
+}
+.btn
+{
+	height: 35px;
+	width: 90%;
+	border-radius: 20px;
+	border-width: 3px;
+	background-color: darkred;
+	border-color: darkred;
+	font-size: 20px;
+	font-weight: 900;
+	color: white;
+	cursor: pointer;
+	transition: .3s;
+	margin-left: 25px;
+}
+a 
+{
+	color: antiquewhite;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	font-size: 15px;
+	margin-top: 10px;
+	margin-left: 25px;
+	font-family: monospace;
+	font-weight: 800;
+	
+}
+label{
+	font-size: 15px;
+	margin-left: 20px;
+	color: antiquewhite;
+	font-weight: bolder;
+
+}

@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+#newsletter
+{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+	background:#EEEDE7;
+	background-repeat: no-repeat;
+	padding: 10px 30px;
+	top: 0;
+	z-index: 400;
+	position: relative;
+	height: 200px;
+	border: 2px solid transparent;
+	border-radius: 14px;
+
+
+}
+#newsletter h4{
+	font-size: 1.8em;
+  font-weight: 700;
+  line-height: 0.1em;
+  
+}
+
+#newsletter p{
+	font-size: 1.1em;
+  margin: 20px 0;
+  font-weight: 400;
+  
+  color: rgb(26, 55, 77);
+}
+
+#newsletter input{
+
+border: 2px solid transparent;
+border-radius: 4px;
+outline: none;
+height: 3.125rem;
+width: 900px;
+padding: 0 1.25rem;
+margin-right: 5px;
+margin-left: 2px;
+}
+
+#newsletter button{
+  
+  background-color: rgb(74, 88, 89);
+  border: 2px solid  rgb(74, 88, 89);
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+  border-radius: 4px;
+  font-weight: 600;
+  width: 200px;
+  
+
+}
+#newsletter button:hover {
+  background-color: rgb(192,192,192);
+}
+
+#newsletter .form{
+	display: flex;
+	width: 40%;
+}
+
+.alert{
+	margin: -9px 0 12px 0;
+	padding: 10px;
+	border-radius: 5px;
+
+}
+.alert.error{
+	color: #721c24;
+	background-color: #f8d7da;
+	border: 1px solid #f5c6cb;
+}
+.alert.success{
+	color: #155724;
+	background-color: #d4edda;
+	border: 1px solid #c3e6cb;
+}

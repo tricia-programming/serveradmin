@@ -1,0 +1,87 @@
+body{
+background-color: #DBD0C0;
+}
+
+
+.showcase img
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+}
+
+#lines{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+	background:#EEEDE7;
+	background-repeat: no-repeat;
+	padding: 10px 30px;
+	top: 0;
+	z-index: 200;
+	position: relative;
+	height: 200px;
+	border: 2px solid transparent;
+	border-radius: 14px;
+}
+
+#sm-banner
+{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	
+}
+
+#sm-banner .banner-box
+{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+width: 500px;
+height: 60vh;
+background: #EEEDE7;
+border-radius: 14px;
+background-image: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)), url("../IMAGES/universities.jpg");
+background-size: cover;
+background-position: center;
+z-index: 300;
+padding: 30px;
+}
+
+#sm-banner .banner-box2
+{
+background-image:linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)),  url("../IMAGES/courses.jpg");
+
+}
+
+.white{
+	font-size: 15px;
+	font-weight: 800;
+	padding: 11px 18px;
+	color: black;
+	background-color: transparent;
+	cursor: pointer;
+	border: 2px solid black;
+	outline: none;
+	transition: 0.2s;
+
+
+}
+a{
+	text-decoration: none;
+}
+
+.banner-box a:hover
+{
+  letter-spacing: 6px;
+}
+.section-p1{
+	padding: 40px 80px;
+}

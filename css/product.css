@@ -1,0 +1,148 @@
+body
+{
+	background-color: slategray ;
+	
+}
+
+nav ol 
+{
+	background-color: darkred;
+}
+.top_bar ol li 
+{
+	list-style-type: none;
+	float: right center;
+	text-align: center;
+	color: black;
+	font-size: 20px;
+
+	
+}
+a 
+{ 
+	text-decoration: inherit;
+	color: inherit;
+
+}
+#crumbs 
+{
+	float: right;
+	border: orange solid;
+	color: white;
+	font-size: 16px;
+	padding: 14px;
+	background-color: orange ;
+	padding-left: 35px;
+	padding-right: 35px;
+	
+}
+#crumbs :hover
+{
+	
+	color: black;
+}	
+.crumb a:hover{
+	
+	color: orange;
+}
+.crumb 
+{
+	display: inline-block;
+	padding: 14px;
+}
+
+
+#buy{
+	
+    color: black;
+
+}
+.container
+{
+width: 100%;
+height: 85vh;
+	font-family: monospace;
+	background-color: orange;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+.card
+{
+
+	max-width: 350px;
+	height: 450px;
+	background-color: antiquewhite;
+	display: inline-block;
+	margin: 10px;
+	padding: 5px;
+}
+
+h2
+{
+	text-align: center;
+	font-style: italic;
+	color: darkred;
+	font-size: 35px;
+	margin-bottom: 0px;
+}
+.para
+{
+	font-size: 25px;
+	display: flex;
+	font-family: monospace;
+	text-align: center;
+	justify-content: center;
+	margin-top: 0px;
+}
+
+.price
+{
+	color: slategray;
+	font-size: 22px;
+}
+.p1
+{
+	box-shadow: 5px 5px orange;
+	max-width: 350px;
+	height: 450px;
+	text-align: center;
+	font-family: monospace;
+	margin-right: 10px;
+	
+}
+
+img
+{
+	opacity: 0.4;
+}
+.btn
+{
+	height: 35px;
+	width: 100%;
+	border-radius: 20px;
+	border-width: 3px;
+	background-color: darkred;
+	border-color: darkred;
+	font-size: 20px;
+	font-weight: 900;
+	color: antiquewhite;
+	cursor: pointer;
+	transition: .3s;
+	
+}
+.card ol li 
+{
+	
+
+	list-style-type: none;
+	float: right center;
+	text-align: center;
+	color: black;
+	font-size: 20px;
+
+	
+
+
+	
+}
